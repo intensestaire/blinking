@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="VXmk$Op/v{Em6hnG]nut">myImage</variable></variables><block type="pxt-on-start" id="-Qe${BM0hViSDO:z7(3O" x="71" y="257"></block><block type="device_forever" id="!FWsN_H3o2bvSuqE*Z9!" x="371" y="264"><statement name="HANDLER"><block type="device_show_image_offset" id="Qp]F5z$?(MAnBTcz4z[M"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="device_build_image" id="URv%7P$TcvEgSaux{lm8"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        . . # . . 
+        # . . . # 
+        . # # # .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="c`_G?4D/|4:Nj(ohp~Dz"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="jf=]:{$y~MZb~+D-]?@S"><field name="NUM">400</field></shadow></value><next><block type="device_show_image_offset" id="|STconF11!#CR|i#g1MH"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="device_build_image" id="FzW8e@,yDC9r~{cg[*#p"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # . # . # 
+        # # # # # 
+        . # # # .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="35}r[1p_6To[*AH/OWv9"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="}gK6t;k{J|Jj~FoQ+$Y`"><field name="NUM">400</field></shadow></value><next><block type="device_show_image_offset" id=")2ARXND$jriafGU6_b.f"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="device_build_image" id="jIU9J?*GW{~{KKUzEU$g"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="@sn}ttP7Nggf_p0vmY#|"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="}!y6|7|oj=W|ZWdlhQ93"><field name="NUM">400</field></shadow></value><next><block type="music_playable_play" id="pITQyeo+Z.y2v=C^wtUv"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_createSoundExpression" id="?5lUnw5zwSk_d;nc5:$a" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="waveShape">WaveShape.Sine</field><field name="effect">SoundExpressionEffect.None</field><field name="interpolation">InterpolationCurve.Linear</field><data>{"commentRefs":[],"fieldData":{"waveShape":"{\"duration\":5,\"startFrequency\":5000,\"endFrequency\":5000,\"startVolume\":255,\"endVolume\":255,\"wave\":\"sine\",\"interpolation\":\"linear\",\"effect\":\"none\"}"}}</data><value name="startFrequency"><shadow type="math_number_minmax" id="=V/vfnI)|8rRU(yZ@WiK"><mutation min="0" max="5000" label="StartFrequency" precision="0"></mutation><field name="SLIDER">5000</field></shadow></value><value name="endFrequency"><shadow type="math_number_minmax" id="wV8C)]eI1oleF8c{7kW,"><mutation min="0" max="5000" label="EndFrequency" precision="0"></mutation><field name="SLIDER">5000</field></shadow></value><value name="duration"><shadow type="math_number_minmax" id="hi2CA{{DEPElAIL7X;=2"><mutation min="1" max="9999" label="Duration" precision="0"></mutation><field name="SLIDER">5</field></shadow></value><value name="startVolume"><shadow type="math_number_minmax" id="Y7SzwoU:x.I/40#oU/cE"><mutation min="0" max="255" label="StartVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><value name="endVolume"><shadow type="math_number_minmax" id="C.Os)pgnyayI?o0CP+P#"><mutation min="0" max="255" label="EndVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></shadow></value><next><block type="device_show_image_offset" id="]g7wbJ[biJLrv.w7t9tD"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="device_build_image" id="YdVbdR|Jg@c~-yL]VZG2"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="sHMaejOV~L(6c`AUwZ.G"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="fr)D%~{IC{XNHjS@TG7$"><field name="NUM">400</field></shadow></value><next><block type="music_playable_play" id="=Ik!u.;UK9JAG$#9Hmp]"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_createSoundExpression" id="]mHn?ENfpguzAD;Pj~zz" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="waveShape">WaveShape.Sine</field><field name="effect">SoundExpressionEffect.None</field><field name="interpolation">InterpolationCurve.Linear</field><data>{"commentRefs":[],"fieldData":{"waveShape":"{\"duration\":5,\"startFrequency\":5000,\"endFrequency\":5000,\"startVolume\":255,\"endVolume\":255,\"wave\":\"sine\",\"interpolation\":\"linear\",\"effect\":\"none\"}"}}</data><value name="startFrequency"><shadow type="math_number_minmax" id="*aN*C#E9qBx6!%fdxj|t"><mutation min="0" max="5000" label="StartFrequency" precision="0"></mutation><field name="SLIDER">5000</field></shadow></value><value name="endFrequency"><shadow type="math_number_minmax" id="RNP`4peZRF#@MQlFN`.C"><mutation min="0" max="5000" label="EndFrequency" precision="0"></mutation><field name="SLIDER">5000</field></shadow></value><value name="duration"><shadow type="math_number_minmax" id="@uL@W^tLAMS47_nG|XkF"><mutation min="1" max="9999" label="Duration" precision="0"></mutation><field name="SLIDER">5</field></shadow></value><value name="startVolume"><shadow type="math_number_minmax" id="=G@MYO*jA7B;QGVBUZsV"><mutation min="0" max="255" label="StartVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><value name="endVolume"><shadow type="math_number_minmax" id="~:;8Z{xYeh|czA^IA.?V"><mutation min="0" max="255" label="EndVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></shadow></value><next><block type="device_show_image_offset" id=",Z|sq=al^8{3^0pigE4L"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="device_build_image" id="B`Kkw7,];Oi4x=m~42*Q"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="Vo$jVbWO4{fBexwF%B?j"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="yJ+bbr/[/)6tkRUX0%m~"><field name="NUM">400</field></shadow></value><next><block type="device_show_image_offset" id="D[zkx!!@zID?cBJ|Z/QE"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="device_build_image" id="[5AE;}6AlpJ=ZpqeW4P8"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # . # . # 
+        # # # # # 
+        . # # # .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="T3{:|-:$G[k@Nn6*hXL/"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="6V~3pm}@seM*;ja)Z5TM"><field name="NUM">400</field></shadow></value><next><block type="device_show_image_offset" id="7nJ_W#ju:vkjz4+%709Q"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="device_build_image" id="K46h|zpUcSr01?(@smyd"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        . . # . . 
+        # . . . # 
+        . # # # .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="3K8xLGH[=HqLo/,1Z}g-"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="IUcVLNuGu^ZaN-qT)jnN"><field name="NUM">400</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
